@@ -1,0 +1,21 @@
+colors:
+  primary:
+    Blue: "rgb(68, 114, 171)"
+    Abenity Blue: "rgb(48, 80, 120)"
+    Med Blue: "rgb(38, 63, 94)"
+    Dark Blue: "rgb(19, 32, 48)"
+
+  secondary:
+    Light Blue: "rgb(90, 146, 184)"
+    Light Bronze: "rgb(225, 222, 214)"
+    Bronze: "rgb(172, 163, 140)"
+    Gold: "rgb(184, 146, 68)"
+    Green: "rgb(50, 143, 41)"
+    Red: "rgb(193, 61, 61)"
+
+  neutral:
+    Light: "rgb(234, 234, 234)"
+    Base: "rgb(184, 184, 184)"
+    Med: "rgb(134, 134, 134)"
+    Dark: "rgb(32, 32, 32)"
+

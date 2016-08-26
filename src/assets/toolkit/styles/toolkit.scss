@@ -1,0 +1,27 @@
+/**
+ * Toolkit styles
+ */
+
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/base/0-base-import";
+
+
+/* Basic document layout structure */
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/0-layout-import";
+
+
+/* Standard user interface elements */
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/elements/0-elements-import";
+
+
+/* Styling added for pages */
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/pages/0-pages-import";
+
+
+/* Styling added for modules */
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/module/0-module-import";
+
+
+body {
+    background-color: #fff;
+    font-family: $abenity-sans-serif;
+}
