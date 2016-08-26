@@ -13,6 +13,7 @@ const runSequence = require('run-sequence');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const webpack = require('webpack');
+const ghPages = require('gulp-gh-pages');
 
 // configuration
 const config = {
@@ -175,4 +176,9 @@ gulp.task('default', ['clean'], () => {
     }
   });
 
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
