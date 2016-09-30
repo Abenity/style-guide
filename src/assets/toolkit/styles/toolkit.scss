@@ -1,12 +1,17 @@
 /**
  * Toolkit styles
  */
-
+// PUBLIC SITE ------------------------------------------------------------------------------------------------------------
 @import "../../../../../../applications/public-site/public_html/assets/v7/src/css/base/0-base-import";
 
-
 /* Basic document layout structure */
-@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/0-layout-import";
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/centering";
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/clearfix";
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/cover";
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/hide";
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/max-width";
+@import "../../../../../../applications/public-site/public_html/assets/v7/src/css/layout/utility";
+
 
 
 /* Standard user interface elements */
@@ -20,8 +25,32 @@
 /* Styling added for modules */
 @import "../../../../../../applications/public-site/public_html/assets/v7/src/css/module/0-module-import";
 
+// ----------------------------------------------------------------------------------------------------------------------
+
+@import "../../../../../../applications/vendor-admin/public_html/assets/src/css/_2_components/grids";
 
 body {
     background-color: #fff;
     font-family: $abenity-sans-serif;
+}
+
+.grid {
+    margin-bottom: 32px;
+}
+
+.grid .demo {
+    background: hsla(31,15%,50%,.1);
+    border-radius: 2px;
+    margin-bottom: 16px;
+    padding: .8em 1em;
+    width: 100%;
+}
+
+.grid .demo-border {
+    border: 1px solid hsl(31,15%,50%);
+    border-radius: 0;
+}
+
+.grid .demo-fixed {
+    width: 180px;
 }

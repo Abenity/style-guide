@@ -1,0 +1,10 @@
+---
+notes: |
+  Add the `grid--auto` class to your grid with no width classes on the columns and they will automatically be sized! Note, will only make a single row.
+---
+
+<div class="grid grid--auto">
+    {{#iterate 5}}
+        <div class="grid__item"><div class="demo">{{@index}}</div></div>
+    {{/iterate}}
+</div>
